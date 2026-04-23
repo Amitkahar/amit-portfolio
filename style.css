@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  background: rgba(2, 6, 23, 0.7);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  z-index: 1000;
+}nav a {
+  color: #38bdf8;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}nav a:hover {
+  color: #818cf8;
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btn {
+  background: #38bdf8;
+  padding: 12px 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+.skills span {
+  background: #1e293b;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#dashboards img {
+  width: 45%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#hire {
+  text-align: center;
+  background: #020617;
+}
